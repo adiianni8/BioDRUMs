@@ -1,0 +1,16 @@
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+
+# Excel I/O
+openpyxl>=3.1
+
+# Plotting
+matplotlib>=3.7
+
+# Optional but often useful for numerical routines
+# scipy>=1.10
+
+# Note: tkinter is part of the standard Python distribution on most systems,
+# so it usually does NOT need to be listed here. Just ensure that Python is
+# installed with tkinter support.
