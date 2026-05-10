@@ -3,7 +3,7 @@ import glob
 import os
 
 # Folder containing your Excel files
-folder_path = "O:\\Bioanalytical\\LC_MS&FD\\LC_MS\\STUDI\\ADC\\2026\\26IV-0002  Protac DAC Q-006234 PK C57BL_6N Mice intact mass\\LC-HRMS\\Results\\G2_PPB-49272\\PK samples"
+folder_path = "pathtoDARexcelsheets"
 
 # Get all Excel files in the folder
 excel_files = glob.glob(os.path.join(folder_path, "*.xlsx"))
@@ -11,7 +11,7 @@ excel_files = glob.glob(os.path.join(folder_path, "*.xlsx"))
 header_mapping = {"Sequence Name": "Protein Name"}
 
 # Output file
-output_file = "combined_workbook_PPB-49272_G2.xlsx"
+output_file = "combined_workbook_ADC.xlsx"
 
 # Create a writer object
 with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
