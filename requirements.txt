@@ -7,6 +7,7 @@ openpyxl>=3.1
 
 # Plotting
 matplotlib>=3.7
+seaborn>=0.13.2
 
 # Optional but often useful for numerical routines
 # scipy>=1.10
