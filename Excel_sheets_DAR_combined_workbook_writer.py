@@ -5,7 +5,7 @@ import os
 # Folder containing your Excel files
 folder_path = "pathtoDARexcelsheets"
 
-# Get all Excel files in the folder
+# Get all Excel files in the folder, name your individual samples with the timepoint or identified code/animal/concentration
 excel_files = glob.glob(os.path.join(folder_path, "*.xlsx"))
 # Mapping of old column names to new ones
 header_mapping = {"Sequence Name": "Protein Name"}
