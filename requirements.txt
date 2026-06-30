@@ -9,6 +9,9 @@ openpyxl>=3.1
 matplotlib>=3.7
 seaborn>=0.13.2
 
+# Proteoforms clustering
+networkx>=3.6.1
+
 # Optional but often useful for numerical routines
 # scipy>=1.10
 
