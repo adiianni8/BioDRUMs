@@ -13,9 +13,9 @@ st.write("Upload your DAR Excel sheet, set parameters, and run the mean DAR anal
 # Sidebar inputs
 with st.sidebar:
     st.header("Inputs")
-    mol_id = st.text_input("Molecule ID (MBE/PPB/chain)", "")
+    mol_id = st.text_input("Molecule ID (ADC name/chain)", "")
     x_axis_name = st.text_input("Define your x axis (e.g., conc or time)", "")
-    study_id = st.text_input("Study name (YYIV-0ABC)", "")
+    study_id = st.text_input("Study name (YY-0ABC)", "")
     study_type = st.text_input("Type of LC-HRMS study (e.g., mice strain PK / applicability / in vitro stability)", "")
     plasma = st.text_input("Matrix", "")
     output_value = st.text_input("Desired output value label (e.g., DAR / SI)", "DAR")
