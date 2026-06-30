@@ -8,7 +8,7 @@ import streamlit as st
 st.set_page_config(page_title="DAR Analysis", layout="wide")
 
 st.title("BioDRUMs(Biologics Drug Ratio and Unified intact Mass analysis)")
-st.write("Upload your BiopharmaFinder Excel, set parameters, and run the mean DAR analysis.")
+st.write("Upload your DAR Excel sheet, set parameters, and run the mean DAR analysis.")
 
 # Sidebar inputs
 with st.sidebar:
