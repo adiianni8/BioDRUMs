@@ -22,7 +22,7 @@ with st.sidebar:
 
     st.divider()
     st.subheader("Filters")
-    threshold_value = st.number_input("Matched Mass Error threshold (ppm)", value=20, min_value=0, step=1)
+    threshold_value = st.number_input("Matched Mass Error threshold (ppm)", value=30, min_value=0, step=1)
     fractional_abundance_threshold_value = st.number_input("Relative Abundance threshold (%)", value=4, min_value=0, step=1)
 
     st.divider()
