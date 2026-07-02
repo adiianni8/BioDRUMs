@@ -347,10 +347,10 @@ with st.expander("Inputs"):
     st.markdown("---")
 
     st.subheader("Glycosylation Masses (Da)")
-    gly_a2g0f = st.number_input("A2G0F (Da)", value=0.0, step=0.1)
-    gly_a2g0 = st.number_input("A2G0 (Da)", value=0.0, step=0.1)
-    gly_a2g1f = st.number_input("A2G1F (Da)", value=0.0, step=0.1)
-    gly_a2g2f = st.number_input("A2G2F (Da)", value=0.0, step=0.1)
+    gly_a2g0f = st.number_input("A2G0F (Da)", value=1444.35, step=0.1)
+    gly_a2g0 = st.number_input("A2G0 (Da)", value=1299.18, step=0.1)
+    gly_a2g1f = st.number_input("A2G1F (Da)", value=1607.46, step=0.1)
+    gly_a2g2f = st.number_input("A2G2F (Da)", value=1769.60, step=0.1)
 
     glycosylation_masses = {
         'A2G0F': gly_a2g0f,
@@ -362,7 +362,7 @@ with st.expander("Inputs"):
     st.markdown("---")
 
     st.subheader("Accuracy (ppm)")
-    accuracy_ppm_val = st.number_input("Accuracy (ppm)", value=10.0, step=0.1)
+    accuracy_ppm_val = st.number_input("Accuracy (ppm)", value=5.0, step=0.1)
 
     st.markdown("---")
 
@@ -372,8 +372,8 @@ with st.expander("Inputs"):
 
     st.markdown("---")
 
-    st.subheader("Number of Cysteines (Exclude Cys involved in conjugation)")
-    num_cysteines = st.number_input("Number of Cysteines", value=2, min_value=0, step=1)
+    st.subheader("Number of Cysteines (Exclude Cys involved in conjugation)", set 11 for the heavy chain and 5 for the light chain)
+    num_cysteines = st.number_input("Number of Cysteines", value=32, min_value=0, step=1)
 
 # Run calculation button
 if st.button("Calculate Proteoforms"):
