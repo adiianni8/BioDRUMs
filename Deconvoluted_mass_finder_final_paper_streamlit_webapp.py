@@ -325,7 +325,7 @@ with st.expander("Inputs"):
     st.markdown("---")
 
     st.subheader("DAR and Linker")
-    dar_val = st.number_input("DAR (max)", value=2, min_value=0, max_value=10, step=1)
+    dar_val = st.number_input("DAR (max)", value=2, min_value=0, max_value=20, step=1)
     linker_mass_val = st.number_input("Linker Payload Mass (Da)", value=1500.0, step=0.1)
     delta_mass_val = st.number_input("Delta Mass (Da)", value=0.0, step=0.1)
 
@@ -372,7 +372,7 @@ with st.expander("Inputs"):
 
     st.markdown("---")
 
-    st.subheader("Number of Cysteines (Exclude Cys involved in conjugation)", set 11 for the heavy chain and 5 for the light chain)
+    st.subheader("Number of Cysteines (Exclude Cys involved in conjugation), set 11 for the heavy chain and 5 for the light chain")
     num_cysteines = st.number_input("Number of Cysteines", value=32, min_value=0, step=1)
 
 # Run calculation button
