@@ -300,7 +300,7 @@ def calculate_proteoforms(
 
 # ============================ STREAMLIT APP ============================
 
-st.title("Proteoform Mass Finder for ADC (Streamlit)")
+st.title("Proteoform Mass Finder for ADC")
 st.write("This is a deconvoluted mass finder tool for ADC proteoforms.")
 
 with st.expander("Inputs"):
