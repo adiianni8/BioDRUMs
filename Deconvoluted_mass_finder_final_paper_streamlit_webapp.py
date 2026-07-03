@@ -366,7 +366,7 @@ with st.expander("Inputs"):
 
     st.markdown("---")
 
-    st.subheader("Molecule Type")
+    st.subheader("Molecule Type, select Intact protein for an intact ADC, Chain for subunit analysis")
     molecule_type = st.selectbox("Molecule Type", ["Intact Protein", "Chain"])
     glycan_multiplier = 2 if molecule_type == "Intact Protein" else 1
 
