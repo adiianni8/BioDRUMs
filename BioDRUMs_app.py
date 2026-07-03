@@ -34,7 +34,7 @@ with st.sidebar:
     )
     excluded_sheets = [s.strip() for s in exclude_input.splitlines() if s.strip()]
 
-uploaded_file = st.file_uploader("Upload Excel file (.xlsx) exported from BiopharmaFinder", type=["xlsx"])
+uploaded_file = st.file_uploader("Upload DAR Excel file (.xlsx)", type=["xlsx"])
 run = st.button("Run analysis")
 
 def extract_numeric_x_axis(tp):
