@@ -397,7 +397,7 @@ tk.Label(root, text="Degradation Mass 4 (Da):").grid(row=11, column=0, sticky="w
 entry_deg4 = tk.Entry(root)
 entry_deg4.grid(row=11, column=1)
 
-# Glycan masses
+# Glycan masses, put values suggested in Table S1
 tk.Label(root, text="A2G0F (Da):").grid(row=12, column=0, sticky="w")
 entry_glyco_a2g0f = tk.Entry(root)
 entry_glyco_a2g0f.grid(row=12, column=1)
