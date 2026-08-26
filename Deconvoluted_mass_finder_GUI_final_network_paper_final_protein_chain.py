@@ -319,7 +319,7 @@ def on_calculate():
 
         # Adjust based on cysteine count
         num_cys = int(entry_num_cysteines.get())
-        hydrogen_mass_per_cys = 1.0079
+        hydrogen_mass_per_cys = 1.0079 # put 1.007276 if monoisotopic masses are used for antibody and linker payload mass
         adjusted_antibody_masses = [m - (num_cys * hydrogen_mass_per_cys) for m in antibody_masses]
 
         # Determine glycan multiplier from dropdown
