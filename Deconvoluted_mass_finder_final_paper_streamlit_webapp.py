@@ -347,7 +347,7 @@ with st.expander("Inputs"):
     st.markdown("---")
 
     st.subheader("Glycosylation Masses (Da)")
-    gly_a2g0f = st.number_input("A2G0F (Da)", value=1444.35, step=0.1)
+    gly_a2g0f = st.number_input("A2G0F (Da)", value=1445.32, step=0.1)
     gly_a2g0 = st.number_input("A2G0 (Da)", value=1299.18, step=0.1)
     gly_a2g1f = st.number_input("A2G1F (Da)", value=1607.46, step=0.1)
     gly_a2g2f = st.number_input("A2G2F (Da)", value=1769.60, step=0.1)
