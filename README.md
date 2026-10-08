@@ -28,7 +28,7 @@ It is designed to work on intact protein data from high‑resolution MS instrume
 
 If you use BioDRUMs in your work, please cite:
 
-**Di Ianni et al., “BioDRUMs: a Python‑based pipeline to streamline mean drug‑to‑antibody ratio and biologics structural integrity analysis from high‑resolution mass spectrometry analyzers”, journal details to be added.**
+**Di Ianni et al., “BioDRUMs: An Open-Source Python Pipeline for Automated Mean Drug-to-Antibody Ratio and Biologics Structural Integrity Analysis from High-Resolution Mass Spectrometry Data”, J. Am. Soc. Mass Spectrom. (2026) https://doi.org/10.1021/jasms.6c00289.**
 
 **Features**
 
